@@ -1,6 +1,7 @@
-
+# ignore the password in the txt and delete every pdf in the upload and the general folder
 *.txt
 upload/*
+*.pdf
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
