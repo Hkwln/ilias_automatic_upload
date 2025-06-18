@@ -12,13 +12,14 @@ from selenium.common.exceptions import NoSuchElementException
 # --- CONFIGURATION ---
 UPLOAD_FOLDER = "upload"
 ID_FILE = "id.txt"
-ILIAS_URL = "https://ilias3.uni-stuttgart.de/login.php?cmd=force_login&client_id=Uni_Stuttgart&lang=de"  # Change to your ILIAS URL
+ILIAS_URL = "https://ilias3.uni-stuttgart.de/login.php?cmd=force_login&client_id=Uni_Stuttgart&lang=de" 
 
 # Map keywords to (group_name, submission_name, url or navigation function)
 FILENAME_TO_GROUP = {
     "math": ("Mathe für Informatiker 2", "Übung 7", None),
     "theoretical": ("Theoretische Informatik", "Übung 3", None),
-    # Add more mappings as needed
+    "DSA":("Datenstrukturen und Algorithmen", "Übung 13", None)
+    
 }
 
 # --- UTILITIES ---

@@ -1,7 +1,9 @@
-# ignore the password in the txt and delete every pdf in the upload and the general folder
+#only for privacy:
 *.txt
 upload/*
 *.pdf
+*ilias_step_logic.md
+# general .gitignore for python created by github:
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
